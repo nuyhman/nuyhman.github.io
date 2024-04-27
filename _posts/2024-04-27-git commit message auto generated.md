@@ -21,8 +21,8 @@ Danger	.notice--danger -->
 프로젝트에서 이슈 추적을 용이하기 위해 사용하고 있는 커밋 양식이 있는데 매번 직접 입력해주기 번거로워 자동화 하고자 한다.
 자동으로 커밋에 포함할 내용은 다음과 같다.
 
-- staged files
-- Jira Issue
+- Staged files
+- Jira issue
 
 ## 적용 방법
 
@@ -85,10 +85,10 @@ Danger	.notice--danger -->
 
   # 현재 브랜치 이름을 커밋 메시지에 추가
   echo "" >> $MESSAGE_FILE
-  echo "branch: $BRANCH_NAME" >> $MESSAGE_FILE
+  echo "issue: $BRANCH_NAME" >> $MESSAGE_FILE
   ```
 
-  스테이징된 파일 목록의 상태가 M, A, C, R, U, D 이런식으로 오는데 읽기 편한 메시지로 변경하기 위해 `git status`로 확인할 때 볼 수 있는 문자들로 매칭해주었고, 이슈 브랜치를 담아주기 위한 현재 브랜치를 가져와서 커밋 메시지에 추가해주었다.
+  위 스크립트를 `.husky/prepare-commit-msg` 파일에 작성하면 된다. 스테이징된 파일 목록의 상태가 M, A, C, R, U, D 이런식으로 오는데 읽기 편한 메시지로 변경하기 위해 `git status`로 확인할 때 볼 수 있는 문자들로 매칭해주었고, 이슈 브랜치를 담아주기 위한 현재 브랜치를 가져와서 커밋 메시지에 추가해주었다.
 
 ## 결과
 
