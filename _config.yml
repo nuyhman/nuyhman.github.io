@@ -25,7 +25,7 @@ url: "https://nuyhman.github.io"
 baseurl: "/"
 repository: "nuyhman/minimal-mistakes"
 teaser: "/assets/images/nuyhman.jpg"
-logo: "/assets/images/nuyhman.jpg"
+logo: # "/assets/images/nuyhman.jpg"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
