@@ -107,7 +107,7 @@ author:
   avatar: "/assets/images/nuyhman.jpg"
   bio: "도움이 되면 좋고요"
   location: "Seoul, Korea"
-  email: "nhpunch@gmail.com"
+  email: ""
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
