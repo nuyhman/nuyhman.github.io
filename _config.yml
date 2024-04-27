@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name: "nuyhman"
-  avatar: "/assets/images/nuyhman.jpg"
+  avatar: "/assets/images/nuyhman-crop.png"
   bio: "도움이 되면 좋고요"
   location: "Seoul, Korea"
   links:
