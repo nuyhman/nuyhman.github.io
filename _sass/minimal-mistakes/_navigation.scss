@@ -515,14 +515,19 @@
   // box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
+    // color: #fff;
+    // background: $muted-text-color;
     font-size: $type-size-6;
-    background: $muted-text-color;
+    color: #454545;
+    background: white;
+    border-bottom: 1px solid $border-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
     font-weight: normal;
-    padding: 0.75rem 0.75rem;
+    padding: 0.75rem 0;
+    margin: 0 0.75rem;
     i {
+      color: $link-color;
       margin-right: 0.1rem;
     }
   }
@@ -557,7 +562,7 @@
   }
 
   li ul > li a {
-    padding-left: 1.25rem;
+    padding-left: 2.25rem;
     font-weight: normal;
   }
 
