@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nuyhman.github.io/sitemap.xml
+view raw
