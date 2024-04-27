@@ -15,7 +15,7 @@
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "ko-KR"
+locale: "en-US"
 title: "nuyhman blog"
 title_separator: "-"
 subtitle: ""
@@ -121,24 +121,20 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:nhpunch@email.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/nuyhman"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
-      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
 
 # Reading Files
 include:
@@ -269,6 +265,4 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
-
-livereload: true
+      # related: true
