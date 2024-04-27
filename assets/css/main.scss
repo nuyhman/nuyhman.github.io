@@ -16,6 +16,12 @@ search: false
 img {
   border-radius: 0.5rem;
 }
+
 a {
   text-underline-offset: 0.15rem;
+}
+
+ul,
+ol {
+  padding-inline-start: 1rem;
 }
