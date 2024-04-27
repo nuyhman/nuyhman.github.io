@@ -18,7 +18,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale: "ko-KR"
 title: "nuyhman blog"
 title_separator: "-"
-subtitle: "도움이 되면 좋고요"
+subtitle: ""
 name: "nuyhman"
 description: "도움이 되면 좋고요"
 url: "https://nuyhman.github.io"
