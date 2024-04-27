@@ -23,17 +23,17 @@ name: "nuyhman"
 description: "도움이 되면 좋고요"
 url: "https://nuyhman.github.io"
 baseurl: "/"
-repository: "nuyhman/minimal-mistakes"
+repository: "nuyhman/nuyhman.github.io"
 teaser: "/assets/images/nuyhman.jpg"
 logo: "/assets/images/namhyun.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
 comments:
-  provider: "disqus"
+  provider: "utterances"
   # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname: "nuyhman-github-io"
+    shortname: # "nuyhman-github-io"
   discourse:
     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -42,8 +42,8 @@ comments:
     num_posts: # 5 (default)
     colorscheme: # "light" (default), "dark"
   utterances:
-    theme: # "github-light" (default), "github-dark"
-    issue_term: # "pathname" (default)
+    theme: "github-light" # (default), "github-dark"
+    issue_term: "pathname" # (default), "pathname"
   giscus:
     repo_id: # Shown during giscus setup at https://giscus.app
     category_name: # Full text name of the category
