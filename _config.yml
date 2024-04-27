@@ -16,14 +16,14 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "ko-KR"
-title: "Site Title"
+title: "nuyhman blog"
 title_separator: "-"
-subtitle: # site tagline that appears below site title in masthead
-name: "Your Name"
-description: "An amazing website."
+subtitle: "도움이 되면 좋고요"
+name: "nuyhman"
+description: "도움이 되면 좋고요"
 url: "https://nuyhman.github.io"
 baseurl: "/"
-repository: "nyuhman/minimal-mistakes"
+repository: "nuyhman/minimal-mistakes"
 teaser: "/assets/images/nuyhman.jpg"
 logo: "/assets/images/nuyhman.jpg"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
@@ -103,18 +103,18 @@ analytics:
 
 # Site Author
 author:
-  name: "nyuhman"
+  name: "nuyhman"
   avatar: "/assets/images/nuyhman.jpg"
   bio: "도움이 되면 좋고요"
   location: "Seoul, Korea"
-  email:
+  email: "nhpunch@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:nhpunch@email.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/nyuhman"
+      url: "https://github.com/nuyhman"
 
 # Site Footer
 footer:
