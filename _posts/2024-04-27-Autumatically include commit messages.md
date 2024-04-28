@@ -36,6 +36,14 @@ Danger	.notice--danger -->
   yarn add --dev husky
   ```
 
+- `prepare-commit-msg` 파일 생성
+
+  ```bash
+  npx husky init
+  ```
+
+  위 명령을 실행하면 `.husky/pre-commit` 파일이 생성되는데 이 파일은 커밋이 수행되기 전에 실행되는 파일이기 때문에 커밋메시지가 작성되기 전에 수행하는 스크립트인 `prepare-commit-msg` 파일을 생성해준다.
+
 - 다른 팀원들에게 설정을 공유하기 위한 script 설정
 
   ```bash
@@ -45,16 +53,8 @@ Danger	.notice--danger -->
   }
   ```
 
-  이를 통해 `npm install` 또는 `yarn`을 실행하면 husky로 설정한 git hook이 공유된다.
+  이를 통해 `npm install` 또는 `yarn`을 실행할 때 husky로 설정한 git hook이 공유된다.
   최신 버전에선 자동으로 추가되지만, 그렇지 않은 경우 직접 추가하면 된다.
-
-- `prepare-commit-msg` 파일 생성
-
-  ```bash
-  npx husky init
-  ```
-
-  위 명령을 실행하면 `.husky/pre-commit` 파일이 생성되는데 이 파일은 커밋이 수행되기 전에 실행되는 파일이기 때문에 커밋메시지가 작성되기 전에 수행하는 스크립트인 `prepare-commit-msg` 파일을 생성해준다.
 
 - 커밋 양식을 추가하기 위한 스크립트 작성
 
