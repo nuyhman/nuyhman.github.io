@@ -9,12 +9,14 @@ toc: true
 toc_sticky: true
 ---
 
-<!-- Default	.notice
+<!--
+Default	.notice
 Primary	.notice--primary
 Info	.notice--info
 Warning	.notice--warning
 Success	.notice--success
-Danger	.notice--danger -->
+Danger	.notice--danger
+-->
 
 ## 개요
 
