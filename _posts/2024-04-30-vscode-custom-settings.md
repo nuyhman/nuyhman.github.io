@@ -10,7 +10,7 @@ toc_sticky: true
 
 <figure>
    <img src="/assets/images/2024-04-30-vscode-custom-settings/image.png" />
-   <figcaption>커스텀 설정한 간결한 UI</figcaption>
+   <figcaption>커스텀 설정이 적용된 간결한 UI</figcaption>
  </figure>
 
 ## UI 변경
