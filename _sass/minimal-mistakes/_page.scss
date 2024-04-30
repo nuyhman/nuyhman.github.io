@@ -348,11 +348,11 @@ body {
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 8px;
-  padding: 5px 10px;
+  padding: 0.25rem 0.5rem;
   text-decoration: none;
   border: 1px solid mix(#000, $border-color, 25%);
   border-radius: $border-radius;
-
+  font-size: 0.5rem;
   &:hover {
     text-decoration: none;
     color: $link-color-hover;
